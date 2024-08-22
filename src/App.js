@@ -3,7 +3,9 @@ import About from './components/About';
 function App() {
   return (
     <div className="w-screen h-screen bg-black">
-      <About />
+      <div className="w-screen h-screen h-fit bg-black">
+        <About />
+      </div>
     </div>
   );
 }
