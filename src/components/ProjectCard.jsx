@@ -2,8 +2,8 @@ import React from 'react'
 
 const ProjectCard = () => {
   return (
-    <div className="min-h-[28.5rem] w-auto xl:w-[30rem] xl:w-[70rem] h-fit  text-white p-[1rem] md:p-[2rem] bg-black">
-        <div className="flex flex-col lg:flex-row items-center align-center gap-[2rem]">
+    <div className="min-h-[28.5rem] w-auto xl:w-[30rem] xl:w-[70rem] h-fit  text-white p-[1rem] md:p-[2rem]  bg-black">
+        <div className="flex flex-col lg:flex-row items-center align-center gap-[2rem] pt-[2rem]">
             <img src="/testtask.gif" alt="гифка с примером работы интерфейса" className="w-[27rem] m-0"/>
             <div className="w-auto  m-auto sm:m-0 md:m-auto text-center md:text-left ">
                 <h2><span className="text-[2em]  border-b-[3px] pb-[0.5rem] border-w-fit-content">Know your clients</span></h2>
