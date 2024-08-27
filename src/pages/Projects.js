@@ -11,7 +11,8 @@ const Projects = () => {
     title: 'Know your clients',
     desc: 'Тестовое задание для fullstack стажировки',
     longDesc: 'Получение списка клиентов по логину-паролю на основе сгенерированной базы данных и вносить в нее изменения.',
-    techs: 'html, tailwindcss, react, python, sqlite'
+    techs: 'html, tailwindcss, react, python, sqlite',
+    href: 'https://github.com/kleprer/test_task'
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ const Projects = () => {
     title: 'Project Shadow',
     desc: 'Angst driven alien hedgehog born in space',
     longDesc: 'Can you see all of me walk into my mystery step inside and hold on for dear life do you remember me capture you or',
-    techs: 'something something something'
+    techs: 'something something something',
+    href: 'https://www.youtube.com/watch?v=8FK9VI_VR6E'
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ const Projects = () => {
     title: 'Shadow with a gun',
     desc: 'WHO SOLD THIS HEDGEHOG A FUCKING GUN',
     longDesc: 'now all of you are fucking doomed bye bye losers',
-    techs: 'the whole enginess of the world'
+    techs: 'the whole enginess of the world',
+    href: 'https://www.youtube.com/watch?v=VzXrZeVgPwQ'
   }];
 
   

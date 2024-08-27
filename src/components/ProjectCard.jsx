@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
                 <p className="mt-[1rem]">{project.desc}</p>
                 <p className="text-[1em] pt-[2rem]">{project.longdesc}</p>
                 <p className="mt-[1rem]">{project.techs}</p>
-                <a href="https://github.com/kleprer/test_task" target="_blank"><button className="mt-[2rem] md:w-fit sm:w-[316px] m-auto border-[2px] border-white p-[10px] hover:opacity-[50%]">смотреть исходный код</button></a>
+                <a href={project.href} target="_blank"><button className="mt-[2rem] md:w-fit sm:w-[316px] m-auto border-[2px] border-white p-[10px] hover:opacity-[50%]">смотреть исходный код</button></a>
                 
             </div>
         </div>
