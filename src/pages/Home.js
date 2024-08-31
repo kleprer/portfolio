@@ -3,10 +3,10 @@ import About from '../components/About';
 import Layout from '../components/Layout';
 function Home() {
   return (
-    <div className="w-screen h-screen bg-black">
+    <div className="w-screen min-h-[32rem] bg-black">
       <div className="w-auto h-fit bg-black">
         <About />
-        <Layout />
+        {/* <Layout /> */}
       </div>
     </div>
   );

@@ -54,14 +54,14 @@ const Projects = () => {
   };
 
   return (
-    <div className="w-auto bg-black text-white h-screen">
+    <div className="w-auto bg-black text-white min-h-[32rem] pb-[1rem]">
       <div className="bg-black text-white h-fit">
         <div className="flex flex-row gap-[1rem]">
           <button onClick={() => swipeProject(1, projectId)}><span className="text-[3em] hover:opacity-[50%]">&lt;</span></button>
           <ProjectCard project={fakeProjects[projectId - 1]}/>
           <button onClick={() => swipeProject(2, projectId)}><span className="text-[3em] hover:opacity-[50%]">&gt;</span></button>
         </div>
-        <Layout />
+        {/* <Layout /> */}
         
       </div>
       
