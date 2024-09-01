@@ -1,37 +1,11 @@
 import React from 'react'
 import {useEffect, useState} from 'react'
 import ProjectCard from '../components/ProjectCard'
-
+import projects from '../translations/ru/global.json'
 const Projects = () => {
   const [projectId, changeProjectId] = useState(1);
   console.log(projectId);
-  const fakeProjects = [{
-    id: 1,
-    source: '/testtask.gif',
-    title: 'Know your clients',
-    desc: 'Тестовое задание для fullstack стажировки',
-    longDesc: 'Получение списка клиентов по логину-паролю на основе сгенерированной базы данных и вносить в нее изменения.',
-    techs: 'html, tailwindcss, react, python, sqlite',
-    href: 'https://github.com/kleprer/test_task'
-  },
-  {
-    id: 2,
-    source: '/testimage1.jpg',
-    title: 'Это портфолио',
-    desc: ' ',
-    longDesc: 'Простое, но стильное приложение, на котором вы сейчас можете ознакомиться с моими работами:)',
-    techs: 'html, tailwind css, react',
-    href: 'https://github.com/kleprer/portfolio'
-  },
-  {
-    id: 3,
-    source: '/art.jpeg',
-    title: 'Диджитал-арт',
-    desc: 'Собрание цифрового творчества',
-    longDesc: ' ',
-    techs: ' ',
-    href: 'https://www.tumblr.com/blog/kleprer2'
-  },];
+  const fakeProjects = [projects.projects];
 
   
 
@@ -58,7 +32,7 @@ const Projects = () => {
       <div className="bg-black text-white h-fit">
         <div className="flex flex-row gap-[1rem]">
           <button onClick={() => swipeProject(1, projectId)}><span className="text-[3em] hover:opacity-[50%]">&lt;</span></button>
-          <ProjectCard project={fakeProjects[projectId - 1] }/>
+          <ProjectCard project={projectId}/>
           <button onClick={() => swipeProject(2, projectId)}><span className="text-[3em] hover:opacity-[50%]">&gt;</span></button>
         </div>
         {/* <Layout /> */}
