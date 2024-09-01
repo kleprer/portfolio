@@ -17,21 +17,21 @@ const Projects = () => {
   {
     id: 2,
     source: '/testimage1.jpg',
-    title: 'Project Shadow',
-    desc: 'Angst driven alien hedgehog born in space',
-    longDesc: 'Can you see all of me walk into my mystery step inside and hold on for dear life do you remember me capture you or',
-    techs: 'something something something',
-    href: 'https://www.youtube.com/watch?v=8FK9VI_VR6E'
+    title: 'Это портфолио',
+    desc: ' ',
+    longDesc: 'Простое, но стильное приложение, на котором вы сейчас можете ознакомиться с моими работами:)',
+    techs: 'html, tailwind css, react',
+    href: 'https://github.com/kleprer/portfolio'
   },
   {
     id: 3,
-    source: '/testimage2.jpg',
-    title: 'Shadow with a gun',
-    desc: 'WHO SOLD THIS HEDGEHOG A FUCKING GUN',
-    longDesc: 'now all of you are fucking doomed bye bye losers',
-    techs: 'the whole enginess of the world',
-    href: 'https://www.youtube.com/watch?v=VzXrZeVgPwQ'
-  }];
+    source: '/art.jpeg',
+    title: 'Диджитал-арт',
+    desc: 'Собрание цифрового творчества',
+    longDesc: ' ',
+    techs: ' ',
+    href: 'https://www.tumblr.com/blog/kleprer2'
+  },];
 
   
 
