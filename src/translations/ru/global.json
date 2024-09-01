@@ -12,32 +12,35 @@
         "contacts": "Контакты"
     },
     "projects": {
-        "p1":  {
+        "1":  {
             "id": 1,
             "source": "/testtask.gif",
             "title": "Узнай своих клиентов",
             "desc": "Тестовое задание для fullstack стажировки",
             "longDesc": "Получение списка клиентов по логину-паролю на основе сгенерированной базы данных и вносить в нее изменения.",
             "techs": "html, tailwindcss, react, python, sqlite",
-            "href": "https://github.com/kleprer/test_task"
+            "href": "https://github.com/kleprer/test_task",
+            "ref": "cмотреть исходный код"
         },
-        "p2":  {
+        "2":  {
             "id": 2,
             "source": "/testimage1.jpg",
             "title": "Это портфолио",
             "desc": " ",
             "longDesc": "Простое, но стильное приложение, на котором вы сейчас можете ознакомиться с моими работами:)",
             "techs": "html, tailwind css, react",
-            "href": "https://github.com/kleprer/portfolio"
+            "href": "https://github.com/kleprer/portfolio",
+            "ref": "cмотреть исходный код"
         },
-        "p3":  {
+        "3":  {
             "id": 3,
             "source": "/art.jpeg",
             "title": "Диджитал-арт",
             "desc": "Собрание цифрового творчества",
             "longDesc": " ",
             "techs": " ",
-            "href": "https://www.tumblr.com/blog/kleprer2"
+            "href": "https://www.tumblr.com/blog/kleprer2",
+            "ref": "cмотреть картинки"
         }
     },
     "contact": {

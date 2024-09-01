@@ -12,32 +12,35 @@
         "contacts": "Contacts"
     },
     "projects": {
-        "p1":  {
+        "1":  {
             "id": 1,
             "source": "/testtask.gif",
             "title": "Know your clients",
             "desc": "Test task for a full-stack internship",
             "longDesc": "Getting a list of clients by username and password based on the generated database with the ability to change it.",
             "techs": "html, tailwindcss, react, python, sqlite",
-            "href": "https://github.com/kleprer/test_task"
+            "href": "https://github.com/kleprer/test_task",
+            "ref": "see source code"
         },
-        "p2":  {
+        "2":  {
             "id": 2,
             "source": "/testimage1.jpg",
             "title": "This portfolio",
             "desc": " ",
             "longDesc": "Simple yet fancy website where you can get to know about me and the cool things i do:)",
             "techs": "html, tailwind css, react",
-            "href": "https://github.com/kleprer/portfolio"
+            "href": "https://github.com/kleprer/portfolio",
+            "ref": "see source code"
         },
-        "p3":  {
+        "3":  {
             "id": 3,
             "source": "/art.jpeg",
             "title": "Digital art",
             "desc": "Collection of my art works",
             "longDesc": " ",
             "techs": " ",
-            "href": "https://www.tumblr.com/blog/kleprer2"
+            "href": "https://www.tumblr.com/blog/kleprer2",
+            "ref": "see the works"
         }
     },
     "contact": {

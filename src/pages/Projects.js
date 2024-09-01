@@ -1,7 +1,7 @@
 import React from 'react'
 import {useEffect, useState} from 'react'
 import ProjectCard from '../components/ProjectCard'
-import Layout from '../components/Layout'
+
 const Projects = () => {
   const [projectId, changeProjectId] = useState(1);
   console.log(projectId);
@@ -58,7 +58,7 @@ const Projects = () => {
       <div className="bg-black text-white h-fit">
         <div className="flex flex-row gap-[1rem]">
           <button onClick={() => swipeProject(1, projectId)}><span className="text-[3em] hover:opacity-[50%]">&lt;</span></button>
-          <ProjectCard project={fakeProjects[projectId - 1]}/>
+          <ProjectCard project={fakeProjects[projectId - 1] }/>
           <button onClick={() => swipeProject(2, projectId)}><span className="text-[3em] hover:opacity-[50%]">&gt;</span></button>
         </div>
         {/* <Layout /> */}

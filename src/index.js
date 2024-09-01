@@ -5,7 +5,6 @@ import './index.css';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contacts from './pages/Contacts';
-import { TbWorld } from "react-icons/tb";
 import Layout from './components/Layout';
 import global_en from './translations/en/global.json';
 import global_ru from './translations/ru/global.json';

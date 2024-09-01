@@ -12,10 +12,10 @@ const About = () => {
             <img src="/pixelpfp.jpg" alt="my selfie" className="m-0 w-[20rem] rounded-lg border-white border-[3px]"/>
             <div className="w-auto lg:max-w-[70%] m-auto sm:m-0 md:m-auto  md:text-left text-center">
                 <h2><span className="text-[2em]  border-b-[3px] pb-[0.5rem] border-w-fit-content">{t("about.name")}</span></h2>
-                <p className="text-[1.5em] pt-[2rem]">19 лет, Москва</p>
-                <p className="mt-[1rem]"><span className="text-[1.5em] pt-[2rem] border-b-[3px] pb-[0.5rem] border-w-fit-content">МТУСИ, программная инженерия</span></p>
-                <p className="pt-[2rem] text-[1em]">амбициозный девелопер и фанат ретро. программирую, рисую, музицирую.</p>
-                <p className="pt-[1rem] text-[1em]">html, css, tailwindcss, js, react, си, ассемблер</p>
+                <p className="text-[1.5em] pt-[2rem]">{t("about.place")}</p>
+                <p className="mt-[1rem]"><span className="text-[1.5em] pt-[2rem] border-b-[3px] pb-[0.5rem] border-w-fit-content">{t("about.status")}</span></p>
+                <p className="pt-[2rem] text-[1em]">{t("about.about")}.</p>
+                <p className="pt-[1rem] text-[1em]">{t("about.stack")}</p>
             </div>
             
         </div>

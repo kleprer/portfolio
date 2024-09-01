@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactCard from '../components/ContactCard'
-import Layout from '../components/Layout'
+
 const Contacts = () => {
   return (
     <div className="w-screen bg-black">
