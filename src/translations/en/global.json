@@ -1,0 +1,46 @@
+{
+    "about": {
+        "name": "Snezhana Maximova",
+        "place": "19, Moscow",
+        "status": "MTUCI, software engineering",
+        "about": "aspiring developer and a retro fan. coding, composing, drawing. exploring web and gamedev",
+        "stack": "html, css, tailwindcss, js, react, C, assembly"
+    },
+    "navigation": {
+        "info": "About me",
+        "works": "Projects",
+        "contacts": "Contacts"
+    },
+    "projects": {
+        "p1":  {
+            "id": 1,
+            "source": "/testtask.gif",
+            "title": "Know your clients",
+            "desc": "Test task for a full-stack internship",
+            "longDesc": "Getting a list of clients by username and password based on the generated database with the ability to change it.",
+            "techs": "html, tailwindcss, react, python, sqlite",
+            "href": "https://github.com/kleprer/test_task"
+        },
+        "p2":  {
+            "id": 2,
+            "source": "/testimage1.jpg",
+            "title": "This portfolio",
+            "desc": " ",
+            "longDesc": "Simple yet fancy website where you can get to know about me and the cool things i do:)",
+            "techs": "html, tailwind css, react",
+            "href": "https://github.com/kleprer/portfolio"
+        },
+        "p3":  {
+            "id": 3,
+            "source": "/art.jpeg",
+            "title": "Digital art",
+            "desc": "Collection of my art works",
+            "longDesc": " ",
+            "techs": " ",
+            "href": "https://www.tumblr.com/blog/kleprer2"
+        }
+    },
+    "contact": {
+        "message": "Contact me"
+    }
+}
