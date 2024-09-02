@@ -9,10 +9,17 @@ import Layout from './components/Layout';
 import global_en from './translations/en/global.json';
 import global_ru from './translations/ru/global.json';
 import i18next from 'i18next';
-import { I18nextProvider, useTranslation } from "react-i18next"
+import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+import Backend from 'i18next-http-backend';
+import { I18nextProvider } from "react-i18next"
 import Nav from './components/Nav';
 
-i18next.init({
+i18next
+.use(Backend)
+.use(LanguageDetector)
+.use(initReactI18next)
+.init({
   interpolation: {escapeValue: false},
   lng: 'ru',
   resources: {
