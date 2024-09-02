@@ -6,7 +6,6 @@ function Home() {
     <div className="w-screen min-h-[32rem] bg-black">
       <div className="w-auto h-fit bg-black">
         <About />
-        {/* <Layout /> */}
       </div>
     </div>
   );

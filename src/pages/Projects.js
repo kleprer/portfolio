@@ -4,9 +4,7 @@ import ProjectCard from '../components/ProjectCard'
 import projects from '../translations/ru/global.json'
 const Projects = () => {
   const [projectId, changeProjectId] = useState(1);
-  console.log(projectId);
   const fakeProjects = [projects.projects['1'], projects.projects['2'], projects.projects['3'],];
-  console.log(fakeProjects);
   useEffect(() => {
 
   }, [projectId])
@@ -27,7 +25,6 @@ const Projects = () => {
         changeProjectId(id + 1);
       }
     }
-    console.log(projectId);
   };
 
   return (
@@ -38,7 +35,6 @@ const Projects = () => {
           <ProjectCard project={projectId}/>
           <button onClick={() => swipeProject(2, projectId)}><span className="max-h-fit text-[3em] hover:opacity-[50%]">&gt;</span></button>
         </div>
-        {/* <Layout /> */}
         
       </div>
       

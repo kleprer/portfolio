@@ -6,7 +6,6 @@ const Contacts = () => {
     <div className="w-screen bg-black">
       <div className="w-fit h-fit bg-black">
         <ContactCard />
-        {/* <Layout /> */}
       </div>
     </div>
   )

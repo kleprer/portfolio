@@ -6,13 +6,11 @@ import {useState} from 'react';
 const Nav = () => {
     const [t, i18n] = useTranslation("global");
     const [loc, changeLoc] = useState('en');
-    let lang = 'en';
     const handleLocaleChange = (loc) => {
         if (loc == 'ru') changeLoc('en')
             else changeLoc('ru');
         i18n.changeLanguage(loc);
         
-        console.log(i18n.language, lang, loc)
     }
 
     
