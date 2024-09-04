@@ -44,8 +44,7 @@ root.render(
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Unbounded:wght@200..900&display=swap" rel="stylesheet"></link>
       <BrowserRouter>
-        <div className="w-screen h-screen bg-black">
-        <div className="h-fit w-fit">
+        <div className="w-screen h-screen bg-black m-0">
           <Nav />
           <Routes>
               <Route path="/" element={<Home />} />
@@ -55,7 +54,6 @@ root.render(
           <div>
             <Layout />
           </div>
-        </div>
         </div>
       </BrowserRouter>
     </I18nextProvider>

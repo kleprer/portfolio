@@ -28,12 +28,12 @@ const Projects = () => {
   };
 
   return (
-    <div className="w-auto bg-black text-white min-h-[32rem] pb-[1rem]">
+    <div className="w-auto bg-black text-white min-h-[32rem] ">
       <div className="bg-black text-white h-fit">
-        <div className="flex flex-row gap-[1rem] items-center align-center">
-          <button onClick={() => swipeProject(1, projectId)}><span className=" text-[3em] hover:opacity-[50%]">&lt;</span></button>
+        <div className="flex flex-row gap-[0] md:gap-[1rem] items-center align-center">
+          <button onClick={() => swipeProject(1, projectId)}><span className="max-h-fit text-[2em] md:text-[3em] hover:opacity-[50%]">&lt;</span></button>
           <ProjectCard project={projectId}/>
-          <button onClick={() => swipeProject(2, projectId)}><span className="max-h-fit text-[3em] hover:opacity-[50%]">&gt;</span></button>
+          <button onClick={() => swipeProject(2, projectId)}><span className="max-h-fit text-[2em]  md:text-[3em] hover:opacity-[50%]">&gt;</span></button>
         </div>
         
       </div>
