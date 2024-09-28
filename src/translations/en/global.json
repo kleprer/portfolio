@@ -4,7 +4,7 @@
         "place": "19, Moscow",
         "status": "MTUCI, software engineering",
         "about": "aspiring developer and a retro fan. coding, composing, drawing",
-        "stack": "html, css, tailwindcss, js, react, C, assembly"
+        "stack": "html, css, tailwindcss, javascript, react, java, python, SQL"
     },
     "navigation": {
         "info": "About me",
@@ -24,7 +24,7 @@
         },
         "2":  {
             "id": 2,
-            "source": "/testimage1.jpg",
+            "source": "/favicon.ico",
             "title": "This portfolio",
             "desc": " ",
             "longDesc": "Simple yet fancy website where you can get to know about me and the cool things i do:)",
@@ -32,8 +32,19 @@
             "href": "https://github.com/kleprer/portfolio",
             "ref": "see source code"
         },
+        
         "3":  {
             "id": 3,
+            "source": "/scraper.png",
+            "title": "Vacancies web-scraper",
+            "desc": "Uni practice",
+            "longDesc": "developing a web-scraper platform for finding info about vacancies on hh.ru",
+            "techs": "react, python, FastAPI, SQLite, Beautifulsoup4, docker",
+            "href": "https://github.com/kleprer/practice_for_uni",
+            "ref": "see source code"
+        },
+        "4":  {
+            "id": 4,
             "source": "/art.jpeg",
             "title": "Digital art",
             "desc": "Collection of my art works",

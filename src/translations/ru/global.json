@@ -4,7 +4,7 @@
         "place": "19 лет, Москва",
         "status": "МТУСИ, программная инженерия",
         "about": "амбициозный девелопер и фанат ретро. программирую, рисую, музицирую",
-        "stack": "html, css, tailwindcss, js, react, си, ассемблер"
+        "stack": "html, css, tailwindcss, javascript, react, java, python, SQL"
     },
     "navigation": {
         "info": "Обо мне",
@@ -24,7 +24,7 @@
         },
         "2":  {
             "id": 2,
-            "source": "/testimage1.jpg",
+            "source": "favicon.ico",
             "title": "Это портфолио",
             "desc": " ",
             "longDesc": "Простое, но стильное приложение, на котором вы сейчас можете ознакомиться с моими работами:)",
@@ -34,6 +34,16 @@
         },
         "3":  {
             "id": 3,
+            "source": "/scraper.png",
+            "title": "Парсинг вакансий",
+            "desc": "Учебная практика в университете",
+            "longDesc": "разработка платформы парсинга данных о вакансиях с платформы hh.ru",
+            "techs": "react, python, FastAPI, SQLite, Beautifulsoup4, docker",
+            "href": "https://github.com/kleprer/practice_for_uni",
+            "ref": "смотреть исходный код"
+        },
+        "4":  {
+            "id": 4,
             "source": "/art.jpeg",
             "title": "Диджитал-арт",
             "desc": "Собрание цифрового творчества",

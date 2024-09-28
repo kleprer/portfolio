@@ -4,7 +4,7 @@ import ProjectCard from '../components/ProjectCard'
 import projects from '../translations/ru/global.json'
 const Projects = () => {
   const [projectId, changeProjectId] = useState(1);
-  const fakeProjects = [projects.projects['1'], projects.projects['2'], projects.projects['3'],];
+  const fakeProjects = [projects.projects['1'], projects.projects['2'], projects.projects['3'],projects.projects['4']];
   useEffect(() => {
 
   }, [projectId])
