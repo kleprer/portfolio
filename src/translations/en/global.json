@@ -14,7 +14,7 @@
     "projects": {
         "1":  {
             "id": 1,
-            "source": "/testtask.gif",
+            "source": "media/testtask.gif",
             "title": "Know your clients",
             "desc": "Test task for a full-stack internship",
             "longDesc": "Getting a list of clients by username and password based on the generated database with the ability to change it.",
@@ -24,7 +24,7 @@
         },
         "2":  {
             "id": 2,
-            "source": "/favicon.png",
+            "source": "media/favicon.png",
             "title": "This portfolio",
             "desc": " ",
             "longDesc": "Simple yet fancy website where you can get to know about me and the cool things i do:)",
@@ -35,7 +35,7 @@
         
         "3":  {
             "id": 3,
-            "source": "/scraper.png",
+            "source": "media/scraper.png",
             "title": "Vacancies web-scraper",
             "desc": "Uni practice",
             "longDesc": "developing a web-scraper platform for finding info about vacancies on hh.ru",
@@ -45,7 +45,7 @@
         },
         "4":  {
             "id": 4,
-            "source": "/art.jpeg",
+            "source": "media/art.jpeg",
             "title": "Digital art",
             "desc": "Collection of my art works",
             "longDesc": " ",

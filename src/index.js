@@ -1,11 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
-import Contacts from './pages/Contacts';
-import Layout from './components/Layout';
+import { Projects, Contacts, Layout, Home } from './pages';
 import global_en from './translations/en/global.json';
 import global_ru from './translations/ru/global.json';
 import i18next from 'i18next';
@@ -42,7 +39,8 @@ root.render(
     <I18nextProvider i18n={i18next}>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Unbounded:wght@200..900&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Unbounded:wght@200..900&display=swap" 
+            rel="stylesheet"></link>
       <BrowserRouter>
         <div className="w-screen h-screen bg-black m-0">
           <Nav />
