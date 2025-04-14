@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
-import { Projects, Contacts, Layout, Home } from './pages';
+import { Projects, Contacts, Layout, Home } from './pages/';
 import global_en from './translations/en/global.json';
 import global_ru from './translations/ru/global.json';
 import i18next from 'i18next';
