@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="w-auto xl:w-[30rem] xl:w-[70rem] min-h-[32rem] text-white p-[1rem] md:p-[2rem]">
         <div className="flex flex-col items-center align-center md:gap-[2rem] md:flex-row">
-            <img src="/pfp.jpeg" alt="my selfie"  loading="lazy" 
+            <img src="/media/pfp.jpeg" alt="my selfie"  loading="lazy" 
                  className="bg-cover m-0 w-[20rem] rounded-lg border-white border-[3px]"/>
             <div className="w-auto lg:max-w-[70%] m-auto sm:m-0 md:m-auto  md:text-left text-center">
                 <h2>
