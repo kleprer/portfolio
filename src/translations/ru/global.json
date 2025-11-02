@@ -1,10 +1,10 @@
 {
     "about": {
         "name": "Снежана Максимова",
-        "place": "19 лет, Москва",
+        "place": "20 лет, Москва",
         "status": "МТУСИ, программная инженерия",
-        "about": "фронтенд-девелопер и фанат ретро. программирую, рисую, музицирую",
-        "stack": "html, css, tailwindcss, javascript, react, java, python, SQL"
+        "about": "начинающий веб-девелопер и фанат ретро. программирую, рисую, музицирую",
+        "stack": "html, css, javascript, react, java, python, SQL"
     },
     "navigation": {
         "info": "Обо мне",
@@ -24,6 +24,26 @@
         },
         "2":  {
             "id": 2,
+            "source": "media/scraper.png",
+            "title": "Парсинг вакансий",
+            "desc": "Учебная практика в университете",
+            "longDesc": "Разработка платформы парсинга данных о вакансиях с платформы hh.ru.",
+            "techs": "react, python, FastAPI, SQLite, Beautifulsoup4, docker",
+            "href": "https://github.com/kleprer/practice_for_uni",
+            "ref": "смотреть исходный код"
+        },
+        "3":  {
+            "id": 3,
+            "source": "media/the-news-preview",
+            "title": "Сайт новостей",
+            "desc": "Тестовое задание для fullstack стажировки",
+            "longDesc": "Асинхронные запросы к фейк API + обработка состояния приложения с помощью Redux.",
+            "techs": "html, css, react, redux toolkit",
+            "href": "https://github.com/kleprer/the-news-app",
+            "ref": "посетить сайт"
+        },
+        "4":  {
+            "id": 4,
             "source": "media/favicon.png",
             "title": "Это портфолио",
             "desc": " ",
@@ -32,25 +52,15 @@
             "href": "https://github.com/kleprer/portfolio",
             "ref": "cмотреть исходный код"
         },
-        "3":  {
-            "id": 3,
-            "source": "media/scraper.png",
-            "title": "Парсинг вакансий",
-            "desc": "Учебная практика в университете",
-            "longDesc": "разработка платформы парсинга данных о вакансиях с платформы hh.ru",
-            "techs": "react, python, FastAPI, SQLite, Beautifulsoup4, docker",
-            "href": "https://github.com/kleprer/practice_for_uni",
-            "ref": "смотреть исходный код"
-        },
-        "4":  {
-            "id": 4,
-            "source": "media/art.jpeg",
-            "title": "Диджитал-арт",
-            "desc": "Собрание цифрового творчества",
-            "longDesc": " ",
-            "techs": " ",
-            "href": "https://www.tumblr.com/kleprer2/tagged/my%20art",
-            "ref": "cмотреть картинки"
+        "5":  {
+            "id": 5,
+            "source": "media/pianist.png",
+            "title": "Soundcheck",
+            "desc": "Тренировка чтения нотной грамоты (НЕ ЗАКОНЧЕНА)",
+            "longDesc": "Платформа для обучения игры нот на фортепиано",
+            "techs": "html, tailwind css, react",
+            "href": "https://soundcheck-ten.vercel.app/",
+            "ref": "посетить сайт"
         }
     },
     "contact": {

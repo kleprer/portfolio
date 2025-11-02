@@ -1,10 +1,10 @@
 {
     "about": {
         "name": "Snezhana Maximova",
-        "place": "19, Moscow",
+        "place": "20, Moscow",
         "status": "MTUCI, software engineering",
-        "about": "aspiring developer and a retro fan. coding, composing, drawing",
-        "stack": "html, css, tailwindcss, javascript, react, java, python, SQL"
+        "about": "aspiring web-developer and a retro fan. coding, composing, drawing",
+        "stack": "html, css, javascript, react, java, python, SQL"
     },
     "navigation": {
         "info": "About me",
@@ -24,6 +24,26 @@
         },
         "2":  {
             "id": 2,
+            "source": "media/scraper.png",
+            "title": "Vacancies web-scraper",
+            "desc": "Uni practice",
+            "longDesc": "A web-scraper platform for finding info about vacancies on hh.ru.",
+            "techs": "react, python, FastAPI, SQLite, Beautifulsoup4, docker",
+            "href": "https://github.com/kleprer/practice_for_uni",
+            "ref": "see source code"
+        },
+        "3":  {
+            "id": 3,
+            "source": "media/the-news-preview",
+            "title": "News web-app",
+            "desc": "Test task for a full-stack internship",
+            "longDesc": "Async api fetch requests with redux state handling.",
+            "techs": "html, css, react, redux toolkit",
+            "href": "https://github.com/kleprer/the-news-app",
+            "ref": "visit website"
+        },
+        "4":  {
+            "id": 4,
             "source": "media/favicon.png",
             "title": "This portfolio",
             "desc": " ",
@@ -32,27 +52,17 @@
             "href": "https://github.com/kleprer/portfolio",
             "ref": "see source code"
         },
-        
-        "3":  {
-            "id": 3,
-            "source": "media/scraper.png",
-            "title": "Vacancies web-scraper",
-            "desc": "Uni practice",
-            "longDesc": "developing a web-scraper platform for finding info about vacancies on hh.ru",
-            "techs": "react, python, FastAPI, SQLite, Beautifulsoup4, docker",
-            "href": "https://github.com/kleprer/practice_for_uni",
-            "ref": "see source code"
-        },
-        "4":  {
-            "id": 4,
-            "source": "media/art.jpeg",
-            "title": "Digital art",
-            "desc": "Collection of my art works",
-            "longDesc": " ",
-            "techs": " ",
-            "href": "https://www.tumblr.com/kleprer2/tagged/my%20art",
-            "ref": "see the works"
+        "5":  {
+            "id": 5,
+            "source": "media/pianist.png",
+            "title": "Soundcheck",
+            "desc": "Notesheet reading training app (UNFINISHED)",
+            "longDesc": "Platform for learning to read notes by playing them on a piano.",
+            "techs": "html, tailwind css, react",
+            "href": "https://soundcheck-ten.vercel.app/",
+            "ref": "visit website"
         }
+
     },
     "contact": {
         "message": "Contact me"
