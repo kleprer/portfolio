@@ -34,7 +34,7 @@
         },
         "3":  {
             "id": 3,
-            "source": "media/the-news-preview",
+            "source": "media/the-news-preview.png",
             "title": "Сайт новостей",
             "desc": "Тестовое задание для fullstack стажировки",
             "longDesc": "Асинхронные запросы к фейк API + обработка состояния приложения с помощью Redux.",

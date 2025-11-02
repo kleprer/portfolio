@@ -34,7 +34,7 @@
         },
         "3":  {
             "id": 3,
-            "source": "media/the-news-preview",
+            "source": "media/the-news-preview.png",
             "title": "News web-app",
             "desc": "Test task for a full-stack internship",
             "longDesc": "Async api fetch requests with redux state handling.",
